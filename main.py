@@ -1,4 +1,4 @@
-DASH_LINE = 40
+DASH_LINE = 40 #this is a variable for separation lines
 
 print('=' * DASH_LINE)
 print("The Salary Calculator Program")
