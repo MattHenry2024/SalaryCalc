@@ -1,8 +1,8 @@
-DASH_LINE = 40 #this is a variable for separation lines
+DASH_LINE = 40  #this is a variable for separation lines
 
-print('=' * DASH_LINE)
-print("The Salary Calculator Program")
-print('=' * DASH_LINE)
+print('=' * DASH_LINE)  #separation line
+print("The Salary Calculator Program")  #welcome the user
+print('=' * DASH_LINE)  #separation line
 
 COLUMN_LENGTH = 25
 
