@@ -34,7 +34,7 @@ annual_salary = salary_per_hour * hours_per_day * working_days  # calculates ann
 adjusted_salary = salary_per_hour * hours_per_day * (working_days - holidays_per_year - vacation_per_year)
 
 print('=' * DASH_LINE)  # separation line
-print(f"{'Unadjusted Salary':.<{COLUMN_LENGTH}}: ${annual_salary:6,.2f}")  # prints annual salary
+print(f"{'Unadjusted Salary':.<{COLUMN_LENGTH}}: ${annual_salary:6,.2f}")  # prints annual salary for user
 print(f"{'Adjusted Salary':.<{COLUMN_LENGTH}}: ${adjusted_salary:6,.2f}")  # prints adjusted salary
 
 print('=' * DASH_LINE)  # separation line
