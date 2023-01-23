@@ -4,7 +4,7 @@ print('=' * DASH_LINE)  #separation line
 print("The Salary Calculator Program")  #welcome the user
 print('=' * DASH_LINE)  #separation line
 
-COLUMN_LENGTH = 25
+COLUMN_LENGTH = 25  #this creates a uniform looking whitespace
 
 salary_per_hour = float(input(f"{'Salary per hour':.<{COLUMN_LENGTH}}: "))
 hours_per_week = float(input(f"{'Hours per week':.<{COLUMN_LENGTH}}: "))
